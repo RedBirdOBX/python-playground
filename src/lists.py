@@ -32,3 +32,29 @@ letters.append('f')
 letters.append("g")  # Adding a letter to the list
 print(letters)
 
+
+print(letters[0])  # Accessing the first letter
+
+# Lists within lists - 2 dimensional lists
+letters = [
+    ['a', 'b', 'c'],
+    ['aa', 'bb', 'cc'],
+    ['aaa', 'bbb', 'ccc']
+]
+print(letters[0])  # Accessing the first list
+print(letters[0][1])  # Accessing 'b' from the first list
+print(letters[1][2])  # Accessing 'cc' from the second list
+
+
+# we can also use dictionaries
+menus = {
+    "Breakfast" : ["Eggs","Bacon","Pancakes"],
+    "Lunch" : ["BLT","Club","Salad"],
+    "Dinner" : ["Pizza","Subs","Fried Chicken"]
+}
+
+print("Breakfast:\t", menus["Breakfast"])  # Accessing the breakfast menu
+print("Lunch:\t\t", menus["Lunch"])  # Accessing the second item in the lunch menu
+print("Dinner:\t\t", menus["Dinner"])  # Accessing the second item in the dinner menu
+
+
