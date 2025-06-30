@@ -3,7 +3,8 @@ import requests
 # https://www.weatherapi.com/
 # http://api.weatherapi.com/v1/current.json?key={key}&q=Richmond&aqi=no
 
-url = "http://api.weatherapi.com/v1/current.json?key=a475c101c9c842e79e6200917251706&q=Richmond&aqi=no"
+city = "Orlando"
+url = f"http://api.weatherapi.com/v1/current.json?key=a475c101c9c842e79e6200917251706&q={city}&aqi=no"
 response = requests.get(url)
 json = response.json()
 
@@ -58,5 +59,9 @@ json = response.json()
 
 # expand on this technique
 temp = json.get('current').get('temp_f')
+description = json.get('current').get('condition').get('text')
+
+print(city)
 print(temp)
+print(description)
 
