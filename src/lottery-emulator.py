@@ -100,15 +100,15 @@ def run_emulator(selections):
     circuit_breaker_counter = 1
     selection_counter = 1
     drawing_counter = 1
-    max_loops = 1000000
+    max_loops = 10000000
     max_game_date = date(9999, 12, 31)
 
     print("Starting the lottery emulator:")
 
     # circut breaker to avoid infinite loop
-    while current_date <= max_game_date and has_won is False:
+    while current_date < max_game_date and has_won is False:
 
-        # time.sleep(1)  # Pauses for 1 second
+        # time.sleep(0.10)  # Pauses for n second
 
         # game is only played on Wednesdays and Fridays
         day_of_week = current_date.weekday()

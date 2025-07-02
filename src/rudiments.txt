@@ -1,0 +1,5 @@
+Paradiddle - RLRR LRLL
+Roll - RR LL RR LL
+Single - RLRLRLRLRL
+Flam - lR RLRLRLRLRL
+Foo - RRR
