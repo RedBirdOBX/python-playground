@@ -1,4 +1,7 @@
 def main():
+
+    # Python can have 60+ error messages.
+    
     try:
         # Code that may raise an exception
         result = 10 / 0  # This will raise a ZeroDivisionError
@@ -16,7 +19,7 @@ def main():
         print("An unexpected error occurred:", e)
 
         raise Exception("A new exception was raised.") from e
-    
+
     else:
         # Code to run if no exceptions were raised
         print("Operation completed successfully.")

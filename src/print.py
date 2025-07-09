@@ -14,3 +14,6 @@ for expense in expenses:
 
 print(f"Total expenses : ${sum}")  # Printing the total expenses
 print(f"Total expenses $", sum, sep = "")  # Printing the total expenses
+
+print("new lines \n\n")
+print("tabs \thello  \tworld")  # Printing with tabs

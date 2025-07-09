@@ -2,6 +2,15 @@ def main():
 
     rudiment = input("Enter a rudiment name: ").strip().lower()
 
+    # MODES:
+    # a append
+    # r (read)
+    # w (write)
+    # x (exclusive creation)
+    # b (binary)
+    # t (text, default)
+    
+
     # basic version
     # file = open(file_name, "r")
     # try:

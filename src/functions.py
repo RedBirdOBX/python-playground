@@ -16,3 +16,6 @@ result = (AddStuff(10,20))
 print(result)
 
 
+def AddStuff2(a, b):
+    return b + a
+
