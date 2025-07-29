@@ -1,7 +1,8 @@
-# main is the default entry point for the dice game.
-def main():
-    import random
+"""import random functions."""
+import random
 
+def game():
+    """A simple dice game where a player competes against the computer."""
     def roll_dice():
         return random.randint(1, 6)
 
@@ -23,6 +24,3 @@ def main():
             print("It's a tie!")
 
     play_game()
-
-# This is the entry point for the script.
-main()

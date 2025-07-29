@@ -1,3 +1,4 @@
+"""import random & time libraries."""
 import random
 import time
 
@@ -6,8 +7,8 @@ from datetime import date, timedelta
 used_numbers = []
 
 
-def main():
-
+def play_lottery():
+    """Main function to play the lottery."""
     start_time = time.time()  # Start timer
 
     print("--------------------------")
@@ -43,7 +44,7 @@ def main():
 
 
 def get_random_numbers():
-
+    """Generate a list of 6 unique random numbers between 1 and 70."""
     numbers = []
 
     number1 = generate_number()
@@ -76,8 +77,8 @@ def get_random_numbers():
 
     return numbers
 
-
 def generate_number():
+    """Generate a unique random number between 1 and 70."""
     number = random.randint(1, 70)
 
     attempts = 1
@@ -92,9 +93,8 @@ def generate_number():
 
     return number
 
-
 def run_emulator(selections):
-
+    """Run the lottery emulator until a win or max loops reached."""
     current_date = date.today()
     has_won = False
     circuit_breaker_counter = 1
@@ -149,5 +149,3 @@ def run_emulator(selections):
 
         if circuit_breaker_counter >= max_loops:
             break
-
-main()
