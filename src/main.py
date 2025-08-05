@@ -4,10 +4,13 @@
 # import demos.casting
 # import demos.conditionals
 # import demos.loops
+import demos.strings
+import demos.lists
 # import games.rolldice
 # import games.lottery
 # import games.rock_paper_scissors
-import dictionaries.dictionaries
+# import dictionaries.dictionaries
+
 
 def main():
     """Main entry point for the application."""
@@ -24,6 +27,8 @@ def main():
     # demos.casting.demo()
     # demos.conditionals.demo()
     # demos.loops.looping_thru_listprop_within_object_demo()
+    demos.strings.demo()
+    # demos.lists.demo()
 
     # Games
     # games.rolldice.game()
@@ -31,7 +36,7 @@ def main():
     # games.rock_paper_scissors.play_game()
 
     # Dictionaries
-    dictionaries.dictionaries.demo()
+    # dictionaries.dictionaries.demo()
 
 if __name__ == "__main__":
     main()
