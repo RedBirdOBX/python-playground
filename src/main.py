@@ -5,7 +5,9 @@
 # import demos.conditionals
 # import demos.loops
 import demos.strings
-import demos.lists
+# import demos.lists
+# import demos.primitive_types
+import demos.operators
 # import games.rolldice
 # import games.lottery
 # import games.rock_paper_scissors
@@ -27,8 +29,10 @@ def main():
     # demos.casting.demo()
     # demos.conditionals.demo()
     # demos.loops.looping_thru_listprop_within_object_demo()
-    demos.strings.demo()
+    # demos.strings.demo()
     # demos.lists.demo()
+    # demos.primitive_types.demo()
+    demos.operators.demo()
 
     # Games
     # games.rolldice.game()

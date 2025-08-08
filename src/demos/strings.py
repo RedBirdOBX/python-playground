@@ -20,10 +20,24 @@ def demo():
     message = "Hello, World!   "
     print(message[0])
     print(message[1])
+
+    # find - like IndexOf
+    print(message.find("World"))
+
+    # strip
     print(message.strip())
+
+    # casing
+    print(message.upper())
+    print(message.lower())
+    print(message.title())
 
     # len
     print(len(message))
+
+    # replace
+    message2 = "Hello, Python!"
+    print(message2.replace("Python", "New World"))
 
     # escaping
     print("Hello \"World\"")

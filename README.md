@@ -10,3 +10,4 @@ https://pylint.readthedocs.io/en/latest/user_guide/messages/convention/missing-m
 ## Tutorials
 https://youtu.be/K5KVEU3aaeQ?si=pP0EQjmr7M3GXkHa
 
+start at 0:57:00
