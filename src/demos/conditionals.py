@@ -31,3 +31,8 @@ def demo():
     name = "Shane"
     if not name == "Shane":
         print("You are not Shane.")
+
+    # ternary conditional operator
+    is_raining = True
+    weather_message = "Take an umbrella." if is_raining else "No umbrella needed."
+    print(weather_message)

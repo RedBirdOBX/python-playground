@@ -10,7 +10,7 @@ def demo():
     # int casting
     msg = "What is your age? "
     age = int(input(msg))
-    print("You are " + str(age) + " years old!")
+    print(f"You are {str(age)} years old!")
 
     # float casting
     dollar = 100

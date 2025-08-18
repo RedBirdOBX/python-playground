@@ -1,16 +1,22 @@
-"""Module providing a common calculator functions."""
+"""
+Module providing a common calculator functions.
+importing folder_name and then file_name.
+"""
 # import utilities.calculators
 # import utilities.formatters
 # import demos.casting
 # import demos.conditionals
 # import demos.loops
-import demos.strings
+# import demos.strings
+# import demos.numbers
 # import demos.lists
 # import demos.primitive_types
-import demos.operators
+# import demos.operators
+import demos.logical_operators
 # import games.rolldice
 # import games.lottery
 # import games.rock_paper_scissors
+# import mini_apps.loan_calculator
 # import dictionaries.dictionaries
 
 
@@ -32,7 +38,9 @@ def main():
     # demos.strings.demo()
     # demos.lists.demo()
     # demos.primitive_types.demo()
-    demos.operators.demo()
+    # demos.operators.demo()
+    demos.logical_operators.demo()
+    # demos.numbers.demo()
 
     # Games
     # games.rolldice.game()
@@ -41,6 +49,9 @@ def main():
 
     # Dictionaries
     # dictionaries.dictionaries.demo()
+
+    #Mini Apps
+    # mini_apps.loan_calculator.demo()
 
 if __name__ == "__main__":
     main()

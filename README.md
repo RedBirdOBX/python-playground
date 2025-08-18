@@ -8,6 +8,5 @@ modules need a docstring:
 https://pylint.readthedocs.io/en/latest/user_guide/messages/convention/missing-module-docstring.html
 
 ## Tutorials
-https://youtu.be/K5KVEU3aaeQ?si=pP0EQjmr7M3GXkHa
-
-start at 0:57:00
+https://www.youtube.com/watch?v=K5KVEU3aaeQ
+start at 1:21:00

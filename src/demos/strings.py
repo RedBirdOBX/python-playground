@@ -4,6 +4,12 @@ def demo():
     """Demo of string operations."""
     fname = "john"
     lname = "doe"
+
+    # formatting strings
+    msg = "What is your age? "
+    age = int(input(msg))
+    print(f"You are {str(age)} years old!")
+
     fullname = f"{fname} {lname}"
     fullname_upper = fullname.upper()
     fullname_lower = fullname.lower()
