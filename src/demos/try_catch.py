@@ -1,7 +1,7 @@
-def main():
+def demo():
 
     # Python can have 60+ error messages.
-    
+
     try:
         # Code that may raise an exception
         result = 10 / 0  # This will raise a ZeroDivisionError
@@ -26,5 +26,3 @@ def main():
     finally:
         # Code that will run no matter what
         print("Execution of the try-except block is complete.")
-
-main()

@@ -1,7 +1,6 @@
 import random
 
-
-def main():
+def demo():
 
     # Generate a random integer between 1 and 100
     random_integer = random.randint(1, 100)
@@ -15,5 +14,3 @@ def main():
     choices = ['apple', 'banana', 'cherry']
     random_choice = random.choice(choices)
     print(f"Random Choice: {random_choice}")
-
-main()

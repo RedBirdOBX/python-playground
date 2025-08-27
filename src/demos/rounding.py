@@ -1,6 +1,6 @@
 import math
 
-def main():
+def demo():
 
     number = 12345.6789
 
@@ -12,4 +12,4 @@ def main():
     ceiled_number = math.ceil(number)
     print(ceiled_number)
 
-main()
+

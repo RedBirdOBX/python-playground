@@ -12,11 +12,22 @@ importing folder_name and then file_name.
 # import demos.lists
 # import demos.primitive_types
 # import demos.operators
-import demos.logical_operators
+# import demos.logical_operators
+# import demos.functions
+# import demos.inheritance
+# import demos.files
+# import demos.input
+# import demos.print
+# import demos.random_numbers
+# import demos.rounding
+# import demos.space_api
+# import demos.try_catch
+import demos.weather_api
 # import games.rolldice
 # import games.lottery
 # import games.rock_paper_scissors
 # import mini_apps.loan_calculator
+# import mini_apps.movie_schedule
 # import dictionaries.dictionaries
 
 
@@ -34,13 +45,23 @@ def main():
     # Demos
     # demos.casting.demo()
     # demos.conditionals.demo()
-    # demos.loops.looping_thru_listprop_within_object_demo()
+    # demos.loops.demo()
     # demos.strings.demo()
     # demos.lists.demo()
     # demos.primitive_types.demo()
     # demos.operators.demo()
-    demos.logical_operators.demo()
+    # demos.logical_operators.demo()
     # demos.numbers.demo()
+    # demos.functions.demo()
+    # demos.inheritance.demo()
+    # demos.files.demo()
+    # demos.input.demo()
+    # demos.print.demo()
+    # demos.random_numbers.demo()
+    # demos.rounding.demo()
+    # demos.space_api.demo()
+    # demos.try_catch.demo()
+    demos.weather_api.demo()
 
     # Games
     # games.rolldice.game()
@@ -52,6 +73,7 @@ def main():
 
     #Mini Apps
     # mini_apps.loan_calculator.demo()
+    # mini_apps.movie_schedule.demo()
 
 if __name__ == "__main__":
     main()

@@ -22,3 +22,21 @@ def demo():
 
     print("\nTruncating")
     print(math.trunc(number3))
+
+
+    amount = 10
+    tax = 0.06
+    total = amount + (amount * tax)
+    totalInt = int(total)
+    totalFloat = float(totalInt)
+
+    print(total)
+    print(totalInt)
+    print(totalFloat)
+
+     # Python only has 2 types of numbers: int and float.
+
+    my_int = 42
+    my_float = 3.14
+    print(my_int)
+    print(my_float)
