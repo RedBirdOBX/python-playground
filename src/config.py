@@ -1,0 +1,4 @@
+APP_NAME = "** Python Playground **"
+ENABLE_NOTIFICATIONS = True
+ENABLE_ANALYTICS = False
+MAINTENANCE_MODE = False
