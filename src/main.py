@@ -4,7 +4,7 @@ importing folder_name and then file_name.
 """
 # import utilities.calculators
 # import utilities.formatters
-# import demos.casting
+import demos.casting
 # import demos.conditionals
 # import demos.loops
 # import demos.strings
@@ -22,14 +22,16 @@ importing folder_name and then file_name.
 # import demos.rounding
 # import demos.space_api
 # import demos.try_catch
-import demos.weather_api
+# import demos.weather_api
+# import demos.version
+import demos.variables
+
 # import games.rolldice
 # import games.lottery
 # import games.rock_paper_scissors
 # import mini_apps.loan_calculator
 # import mini_apps.movie_schedule
 # import dictionaries.dictionaries
-
 
 def main():
     """Main entry point for the application."""
@@ -61,7 +63,9 @@ def main():
     # demos.rounding.demo()
     # demos.space_api.demo()
     # demos.try_catch.demo()
-    demos.weather_api.demo()
+    # demos.weather_api.demo()
+    # demos.version.demo()
+    demos.variables.demo()
 
     # Games
     # games.rolldice.game()

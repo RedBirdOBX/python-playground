@@ -17,3 +17,15 @@ def demo():
     cents = 0.50
     total = float(dollar) + float(cents)
     print("Total: " + str(total))
+
+    x = str(3)    # x will be '3'
+    print(x)
+    print(type(x))
+
+    y = int(3)    # y will be 3
+    print(y)
+    print(type(y))
+
+    z = float(3)  # z will be 3.0
+    print(z)
+    print(type(z))
