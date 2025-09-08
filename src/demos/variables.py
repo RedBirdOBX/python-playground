@@ -33,4 +33,6 @@ def demo():
     print(local_var)
     print(app_name)
     print(config.APP_NAME)
+    print(config.ENABLE_NOTIFICATIONS)
+    print(config.ENABLE_ANALYTICS)
 
