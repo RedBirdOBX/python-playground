@@ -1,5 +1,3 @@
-import config
-
 # defined outside of the scope of the function
 app_name = "I am Global to this file"
 
@@ -29,10 +27,5 @@ def demo():
     print(fruit3)
 
     # reading a global variable
-    local_var = "I am local"
-    print(local_var)
     print(app_name)
-    print(config.APP_NAME)
-    print(config.ENABLE_NOTIFICATIONS)
-    print(config.ENABLE_ANALYTICS)
 

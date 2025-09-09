@@ -4,7 +4,7 @@ importing folder_name and then file_name.
 """
 # import utilities.calculators
 # import utilities.formatters
-import demos.casting
+# import demos.casting
 # import demos.conditionals
 # import demos.loops
 # import demos.strings
@@ -24,7 +24,8 @@ import demos.casting
 # import demos.try_catch
 # import demos.weather_api
 # import demos.version
-import demos.variables
+# import demos.variables
+import demos.using_global_variables
 
 # import games.rolldice
 # import games.lottery
@@ -65,7 +66,8 @@ def main():
     # demos.try_catch.demo()
     # demos.weather_api.demo()
     # demos.version.demo()
-    demos.variables.demo()
+    # demos.variables.demo()
+    demos.using_global_variables.demo()
 
     # Games
     # games.rolldice.game()
