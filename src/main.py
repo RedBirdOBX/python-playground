@@ -34,9 +34,12 @@ import demos.using_global_variables
 # import mini_apps.movie_schedule
 # import dictionaries.dictionaries
 
+import config
+
 def main():
     """Main entry point for the application."""
-    print("This is the main entry point for the application.\n\n")
+    print("This is the main entry point for the application.")
+    print(f"App Name: {config.APP_NAME}\n\n")
 
     # Utilities
     # utilities.calculators.age_calculator()
